@@ -105,7 +105,7 @@ def main(
         if os.getenv("SHELL",'POWERSHELL'):
             os.system('powershell.exe ' + full_completion)
         else:
-            os.system(completion)
+            os.system(full_completion)
 
 def entry_point() -> None:
     # Python package entry point defined in setup.py
